@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4dee4d6d.chunk.css",
-    "main.js": "/static/js/main.0127dd4a.chunk.js",
+    "main.css": "/static/css/main.c5e8bbd9.chunk.css",
+    "main.js": "/static/js/main.c9dbd04d.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.481341cb.js",
     "static/css/2.960a414c.chunk.css": "/static/css/2.960a414c.chunk.css",
-    "static/js/2.d81c80cc.chunk.js": "/static/js/2.d81c80cc.chunk.js",
+    "static/js/2.8cd55b62.chunk.js": "/static/js/2.8cd55b62.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.fb3767f1438b0ff56df5db1ee71d2185.js": "/precache-manifest.fb3767f1438b0ff56df5db1ee71d2185.js",
+    "precache-manifest.540cdc0cf9a483d14db1722e664d5e86.js": "/precache-manifest.540cdc0cf9a483d14db1722e664d5e86.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.d81c80cc.chunk.js.LICENSE.txt": "/static/js/2.d81c80cc.chunk.js.LICENSE.txt",
+    "static/js/2.8cd55b62.chunk.js.LICENSE.txt": "/static/js/2.8cd55b62.chunk.js.LICENSE.txt",
     "static/media/babelsound1.jpg": "/static/media/babelsound1.0a135b9c.jpg",
     "static/media/babelsound2.jpg": "/static/media/babelsound2.79d4f42e.jpg",
     "static/media/banner.jpg": "/static/media/banner.a93c240b.jpg",
     "static/media/banner_small.jpg": "/static/media/banner_small.b98f9461.jpg",
     "static/media/callesuena.jpg": "/static/media/callesuena.13481913.jpg",
     "static/media/enclave.jpg": "/static/media/enclave.202d2b92.jpg",
-    "static/media/fresh_me_up.jpg": "/static/media/fresh_me_up.af7b81f6.jpg",
-    "static/media/koko_iroyin.jpg": "/static/media/koko_iroyin.048726de.jpg",
-    "static/media/observer.jpg": "/static/media/observer.303333d0.jpg",
+    "static/media/fresh_me_up.jpg": "/static/media/fresh_me_up.c6cc1030.jpg",
+    "static/media/koko_iroyin.jpg": "/static/media/koko_iroyin.856eef5c.jpg",
+    "static/media/observer.jpg": "/static/media/observer.ed4a88c6.jpg",
     "static/media/og_image.jpg": "/static/media/og_image.71d77e18.jpg",
     "static/media/ogun.jpg": "/static/media/ogun.b42bf8d1.jpg",
     "static/media/ogun1.jpg": "/static/media/ogun1.6e0698e8.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.481341cb.js",
     "static/css/2.960a414c.chunk.css",
-    "static/js/2.d81c80cc.chunk.js",
-    "static/css/main.4dee4d6d.chunk.css",
-    "static/js/main.0127dd4a.chunk.js"
+    "static/js/2.8cd55b62.chunk.js",
+    "static/css/main.c5e8bbd9.chunk.css",
+    "static/js/main.c9dbd04d.chunk.js"
   ]
 }

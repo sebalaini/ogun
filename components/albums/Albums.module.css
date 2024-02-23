@@ -1,0 +1,46 @@
+.albums {
+  max-width: 1300px;
+  padding-top: 70px;
+  padding-bottom: 0;
+}
+
+.albums .rows {
+  margin-bottom: 2rem;
+}
+
+.albums .rows:last-child {
+  margin-bottom: 0;
+}
+
+.songs .albumTitle,
+.songs .albumRelease {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.songs .albumRelease {
+  margin-bottom: 10px;
+}
+
+.cover .img {
+  max-width: 100%;
+  /* border-radius: 50%; */
+}
+
+.albums .songs {
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .rows li {
+    text-align: left;
+  }
+
+  .rowsRight .songs .ul {
+    float: right;
+  }
+
+  .rowsRight .cover {
+    order: 1;
+  }
+}

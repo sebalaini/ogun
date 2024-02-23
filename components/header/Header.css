@@ -1,0 +1,145 @@
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+@media (min-width: 1024px) {
+  .bm-burger-button {
+    display: none;
+  }
+}
+
+.bm-burger-bars {
+  background: var(--main-yellow-color);
+}
+
+.bm-burger-bars-hover {
+  background: var(--main-yellow-color);
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+@media (min-width: 1024px) {
+  .bm-cross-button {
+    display: none;
+  }
+}
+
+.bm-cross {
+  background: #fff;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.65) !important;
+}
+
+@media (min-width: 1024px) {
+  .bm-overlay {
+    background: unset !important;
+  }
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+@media (min-width: 1024px) {
+  .bm-menu-wrap {
+    display: block !important;
+    width: 100% !important;
+    height: 65px !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+  }
+
+  #page-wrap {
+    transform: translate3d(0, 0px, 0px) !important;
+  }
+}
+
+.bm-menu {
+  background: var(--main-black-color);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+@media (min-width: 1024px) {
+  .bm-menu {
+    padding: .7em;
+    padding-top: .8em;
+  }
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: var(--main-black-color);
+}
+
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+@media (min-width: 1024px) {
+  .bm-item-list {
+    flex-direction: row;
+    float: right;
+  }
+}
+
+/* Individual item */
+.bm-item {
+  display: flex !important;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  padding-bottom: .4rem;
+}
+
+.selected {
+  border-bottom: 1px solid var(--main-yellow-color);
+}
+
+.bm-item-list svg {
+  width: 25px;
+  height: 25px;
+  fill: var(--main-yellow-color);
+  margin-right: .5rem;
+}
+
+.bm-item-list a:not([href]):not([tabindex]),
+.bm-item-list a {
+  width: 100%;
+  cursor: pointer;
+  color: var(--main-yellow-color);
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .bm-item-list a:not([href]):not([tabindex]),
+  .bm-item-list a {
+    width: auto;
+    margin: 0 1em;
+  }
+}
+
+.bm-item-list a:not([href]):not([tabindex]):hover,
+.bm-item-list a:hover {
+  transform: scale(1.1);
+  color: var(--main-yellow-color);
+  text-decoration: none;
+}
+

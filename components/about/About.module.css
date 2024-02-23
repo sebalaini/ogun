@@ -1,0 +1,26 @@
+.about {
+  padding-top: 70px;
+  padding-bottom: 0;
+  position: relative;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.aboutP {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.capitalP::first-letter {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-5 {
+    -ms-flex: 0 0 43%;
+    flex: 0 0 43%;
+    max-width: 43%;
+  }
+}

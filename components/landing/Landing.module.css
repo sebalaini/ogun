@@ -1,0 +1,131 @@
+.Landing {
+  height: 100vh;
+  background: url('../../public/img/banner.jpg') no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .Landing {
+    background: url('../../public/img/banner_small.jpg') no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.Landing::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background: rgba(0, 0, 0, .7);
+}
+
+.info {
+  position: relative;
+  top: 35%;
+  color: var(--main-yellow-color);
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .info {
+    top: 45%;
+  }
+}
+
+.info h1 {
+  font-family: 'Montserrat';
+}
+
+.info h1 span {
+  color: var(--main-blue-color);
+}
+
+/**
+ * contacts div
+ */
+
+.contact_div {
+  max-width: 1180px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .contact_div {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+/**
+ * socials
+ */
+
+.social_logos {
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .social_logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+
+.social_logos li,
+.social_logos a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.social_logos a {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .social_logos lo {
+    margin: 5px 10px;
+  }
+
+  .social_logos li:first-child {
+    margin-left: 0;
+  }
+
+  .social_logos li:last-child {
+    margin-right: 0;
+  }
+}
+
+.social_logos svg {
+  fill: var(--main-blue-color);
+}
+
+.social_logos svg:hover {
+  fill: var(--main-grey-color);
+}

@@ -1,0 +1,10 @@
+.contact {
+  padding: 70px 15px;
+}
+
+.footer {
+  font-size: .8rem;
+  color: #fff;
+  background: var(--main-black-color);
+  padding: .5rem 0;
+}

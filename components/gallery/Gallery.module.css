@@ -1,0 +1,58 @@
+.gallery {
+  padding-top: 70px;
+  padding-bottom: 0;
+  position: relative;
+}
+
+/**
+ * VIDEO GALLERY
+ */
+.videoGallery {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .videoGallery {
+    width: 70%;
+    max-width: 650px;
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+
+.videoGallery {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/**
+ * PHOTO GALLERY
+ */
+.photoGallery {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.photoGallery img {
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+@media (min-width: 1024px) {
+  .photoGallery img {
+    max-width: calc(50% - 20px);
+    float: left;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .photoGallery img {
+    max-width: calc(33% - 30px);
+    float: left;
+    margin: 10px 15px;
+  }
+}

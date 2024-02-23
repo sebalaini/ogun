@@ -25,7 +25,7 @@ const securityHeaders = [
   },
   {
     key: 'Access-Control-Allow-Origin',
-    value: 'ogun-vercel.vercel.app/'
+    value: 'https://ogun-sebalaini.vercel.app/'
   }
 ]
 
